@@ -1,0 +1,102 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-27 14:58:10.378313",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "delegate",
+  "opening_speech_out_of_10",
+  "opening_speech_out_of_10_copy",
+  "motions_tally_times",
+  "quality_of_speech_out_of_10",
+  "point_count",
+  "point_quality",
+  "leadership_and_etiquette_out_of_10",
+  "unmoderated_caucus",
+  "evaluation",
+  "total"
+ ],
+ "fields": [
+  {
+   "fieldname": "delegate",
+   "fieldtype": "Link",
+   "label": "Delegate",
+   "options": "Delegate"
+  },
+  {
+   "fieldname": "opening_speech_out_of_10",
+   "fieldtype": "Float",
+   "label": "Opening Speech (Out of 10)",
+   "non_negative": 1,
+   "precision": "5"
+  },
+  {
+   "fieldname": "motions_tally_times",
+   "fieldtype": "Int",
+   "label": "Motions Count",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "opening_speech_out_of_10_copy",
+   "fieldtype": "Float",
+   "label": "Opening Speech (Out of 10) Copy",
+   "non_negative": 1,
+   "precision": "5"
+  },
+  {
+   "fieldname": "quality_of_speech_out_of_10",
+   "fieldtype": "Int",
+   "label": "Quality of Speech (Out of 10)",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "point_count",
+   "fieldtype": "Int",
+   "label": "Point Count"
+  },
+  {
+   "fieldname": "point_quality",
+   "fieldtype": "Float",
+   "label": "Point Quality",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "leadership_and_etiquette_out_of_10",
+   "fieldtype": "Float",
+   "label": "Leadership And Etiquette (out of 10)",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "unmoderated_caucus",
+   "fieldtype": "Float",
+   "label": "Unmoderated Caucus",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "evaluation",
+   "fieldtype": "Float",
+   "label": "Evaluation",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Float",
+   "label": "Total",
+   "non_negative": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-27 15:32:21.834188",
+ "modified_by": "Administrator",
+ "module": "Mun",
+ "name": "Grading Sheet",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

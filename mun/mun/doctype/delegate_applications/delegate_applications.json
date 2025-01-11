@@ -1,0 +1,157 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-27 14:35:33.357669",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "registration_section",
+  "registration_type",
+  "column_break_uufu",
+  "registration_status",
+  "personal_info_section",
+  "school_name",
+  "advisor_email",
+  "advisor_phone_number",
+  "column_break_vnte",
+  "full_name",
+  "email",
+  "phone_number",
+  "grade",
+  "history_section",
+  "previous_experience",
+  "column_break_xwpb",
+  "about_previous_experience_if_yes",
+  "delegate_preferences_section",
+  "preferred_committee"
+ ],
+ "fields": [
+  {
+   "fieldname": "registration_section",
+   "fieldtype": "Section Break",
+   "label": "Registration"
+  },
+  {
+   "fieldname": "registration_type",
+   "fieldtype": "Select",
+   "label": "Registration Type",
+   "options": "Individually\nAs a School"
+  },
+  {
+   "fieldname": "column_break_uufu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Not Decided",
+   "fieldname": "registration_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Registration Status",
+   "options": "Not Decided\nAccepted\nRejected"
+  },
+  {
+   "fieldname": "personal_info_section",
+   "fieldtype": "Section Break",
+   "label": "Personal Info"
+  },
+  {
+   "fieldname": "school_name",
+   "fieldtype": "Data",
+   "label": "School Name"
+  },
+  {
+   "fieldname": "advisor_email",
+   "fieldtype": "Data",
+   "label": "Advisor Email"
+  },
+  {
+   "fieldname": "advisor_phone_number",
+   "fieldtype": "Data",
+   "label": "Advisor Phone Number"
+  },
+  {
+   "fieldname": "column_break_vnte",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "grade",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Grade",
+   "options": "9\n10\n11\n12"
+  },
+  {
+   "fieldname": "history_section",
+   "fieldtype": "Section Break",
+   "label": "History"
+  },
+  {
+   "fieldname": "previous_experience",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Previous Experience",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "column_break_xwpb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "about_previous_experience_if_yes",
+   "fieldtype": "Small Text",
+   "label": "About Previous Experience (If Yes)"
+  },
+  {
+   "fieldname": "delegate_preferences_section",
+   "fieldtype": "Section Break",
+   "label": "Delegate Preferences"
+  },
+  {
+   "fieldname": "preferred_committee",
+   "fieldtype": "Link",
+   "label": "Preferred Committee",
+   "options": "Committee"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-27 16:05:31.404765",
+ "modified_by": "Administrator",
+ "module": "Mun",
+ "name": "Delegate Applications",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

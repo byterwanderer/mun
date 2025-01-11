@@ -1,0 +1,67 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{awared_to}-{certificate_type}",
+ "creation": "2024-12-27 15:46:01.254127",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "award_information_section",
+  "certificate_type",
+  "awarded_to",
+  "written"
+ ],
+ "fields": [
+  {
+   "fieldname": "award_information_section",
+   "fieldtype": "Section Break",
+   "label": "Certificate Information"
+  },
+  {
+   "fieldname": "awarded_to",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Awarded To",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "written",
+   "fieldtype": "Text Editor",
+   "label": "Written"
+  },
+  {
+   "fieldname": "certificate_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Certificate Type",
+   "options": "\nParticipation\nBest Delegate\nDiplomacy\nHonorable Mention\nBest Advocate\nBest Judge\nSecretary General\nDeputy Secretary General\nHead Of Media/Design\nCo-Head Of Press\nCo-head Of Crisis\nCo-head Of Logistics\nMember Of Press\nMember Of Media/Design\nChair",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-06 17:22:48.296802",
+ "modified_by": "Administrator",
+ "module": "Mun",
+ "name": "Certificate",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

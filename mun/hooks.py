@@ -8,7 +8,7 @@ app_license = "unlicense"
 # Apps
 # ------------------
 
-# required_apps = []
+required_apps = ["frappe/erpnext", "frappe/hrms"]
 
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
@@ -16,7 +16,7 @@ app_license = "unlicense"
 # 		"name": "mun",
 # 		"logo": "/assets/mun/logo.png",
 # 		"title": "Mun",
-# 		"route": "/mun",
+# 		"route": "/mun-conf-details",
 # 		"has_permission": "mun.api.permission.has_app_permission"
 # 	}
 # ]
@@ -57,7 +57,8 @@ app_license = "unlicense"
 # ----------
 
 # application home page (will override Website Settings)
-# home_page = "login"
+# home_page = "mun-tools"
+# home_page_redirect = "MUN Tools"
 
 # website user home page (by Role)
 # role_home_page = {
@@ -242,3 +243,5 @@ app_license = "unlicense"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+
+website_route_rules = [{'from_route': '/mun-conf-details/<path:app_path>', 'to_route': 'mun-conf-details'},]

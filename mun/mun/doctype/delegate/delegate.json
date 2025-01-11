@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{delegation}-{full_name}",
+ "creation": "2024-12-25 20:49:57.086809",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "delegate_information_section",
+  "full_name",
+  "delegation"
+ ],
+ "fields": [
+  {
+   "fieldname": "delegate_information_section",
+   "fieldtype": "Section Break",
+   "label": "Delegate Information"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "delegation",
+   "fieldtype": "Link",
+   "label": "Delegation",
+   "options": "Delegation"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-27 12:40:48.671214",
+ "modified_by": "Administrator",
+ "module": "Mun",
+ "name": "Delegate",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

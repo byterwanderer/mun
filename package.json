@@ -1,0 +1,15 @@
+{
+  "name": "mun",
+  "version": "1.0.0",
+  "description": "Model United Nations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd MunDetailsScreen && yarn install",
+    "dev": "cd MunDetailsScreen && yarn dev",
+    "build": "cd MunDetailsScreen && yarn build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,62 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-27 14:49:08.632537",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "motion_details_section",
+  "motion_type",
+  "topic",
+  "total_time",
+  "speakers_time",
+  "proposed_by_delegate"
+ ],
+ "fields": [
+  {
+   "fieldname": "motion_details_section",
+   "fieldtype": "Section Break",
+   "label": "Motion Details"
+  },
+  {
+   "fieldname": "motion_type",
+   "fieldtype": "Select",
+   "label": "Motion Type",
+   "options": "Informal Debate\nFormal Debate"
+  },
+  {
+   "fieldname": "topic",
+   "fieldtype": "Small Text",
+   "label": "Topic"
+  },
+  {
+   "fieldname": "total_time",
+   "fieldtype": "Duration",
+   "label": "Total Time"
+  },
+  {
+   "fieldname": "speakers_time",
+   "fieldtype": "Duration",
+   "label": "Speakers Time"
+  },
+  {
+   "fieldname": "proposed_by_delegate",
+   "fieldtype": "Link",
+   "label": "Proposed By (Delegate)",
+   "options": "Delegate"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-27 14:52:43.951509",
+ "modified_by": "Administrator",
+ "module": "Mun",
+ "name": "Motions",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

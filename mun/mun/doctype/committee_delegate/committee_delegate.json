@@ -1,0 +1,46 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-27 14:53:36.387060",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "delegate",
+  "delegation",
+  "isspeaker"
+ ],
+ "fields": [
+  {
+   "fieldname": "delegate",
+   "fieldtype": "Link",
+   "label": "Delegate",
+   "link_filters": "[[\"Employee\",\"naming_series\",\"=\",\"D-\"]]",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "delegation",
+   "fieldtype": "Link",
+   "label": "Delegation",
+   "options": "Delegation"
+  },
+  {
+   "default": "0",
+   "fieldname": "isspeaker",
+   "fieldtype": "Check",
+   "label": "isSpeaker"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-30 13:26:56.362040",
+ "modified_by": "Administrator",
+ "module": "Mun",
+ "name": "Committee Delegate",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,205 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "prompt",
+ "creation": "2024-12-27 15:33:50.933297",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "committee_details_section",
+  "committee_capacity",
+  "capacity_status",
+  "committee_overview",
+  "members_tab",
+  "committee_member_lists_section",
+  "team_members",
+  "delegates",
+  "conference_details_tab",
+  "conference_details_section",
+  "conference_name_title",
+  "topic",
+  "sub_topic",
+  "column_break_kiie",
+  "crisis_mode",
+  "pause",
+  "stage_of_conference",
+  "motions",
+  "grading__notes_tab",
+  "conference_grading_and_notes_section",
+  "grading_sheet",
+  "notes",
+  "attendance_tab",
+  "tab_6_tab",
+  "branch_link"
+ ],
+ "fields": [
+  {
+   "fieldname": "committee_details_section",
+   "fieldtype": "Section Break",
+   "label": "Committee Details"
+  },
+  {
+   "fieldname": "committee_capacity",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Committee Capacity",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "capacity_status",
+   "fieldtype": "Select",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Capacity Status",
+   "reqd": 1
+  },
+  {
+   "fieldname": "committee_overview",
+   "fieldtype": "Small Text",
+   "label": "Committee Overview"
+  },
+  {
+   "fieldname": "members_tab",
+   "fieldtype": "Tab Break",
+   "label": "Members"
+  },
+  {
+   "fieldname": "committee_member_lists_section",
+   "fieldtype": "Section Break",
+   "label": "Committee Member Lists"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "team_members",
+   "fieldtype": "Table",
+   "label": "Team Members",
+   "options": "Committee Team Member"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "delegates",
+   "fieldtype": "Table",
+   "label": "Delegates",
+   "options": "Committee Delegate"
+  },
+  {
+   "fieldname": "conference_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Conference Details"
+  },
+  {
+   "fieldname": "conference_details_section",
+   "fieldtype": "Section Break",
+   "label": "Conference Details"
+  },
+  {
+   "fieldname": "conference_name_title",
+   "fieldtype": "Data",
+   "label": "Conference Name (Title)"
+  },
+  {
+   "fieldname": "topic",
+   "fieldtype": "Small Text",
+   "label": "Topic"
+  },
+  {
+   "fieldname": "sub_topic",
+   "fieldtype": "Small Text",
+   "label": "Sub Topic"
+  },
+  {
+   "fieldname": "column_break_kiie",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "crisis_mode",
+   "fieldtype": "Check",
+   "label": "Crisis Mode"
+  },
+  {
+   "default": "0",
+   "fieldname": "pause",
+   "fieldtype": "Check",
+   "label": "Pause"
+  },
+  {
+   "fieldname": "stage_of_conference",
+   "fieldtype": "Select",
+   "label": "Stage Of Conference",
+   "options": "Not Started\nRoll Call\nOpening Speeches\nDebate\nVoting\nClosed"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "motions",
+   "fieldtype": "Table",
+   "label": "Motions",
+   "options": "Motions"
+  },
+  {
+   "fieldname": "grading__notes_tab",
+   "fieldtype": "Tab Break",
+   "label": "Grading / Notes"
+  },
+  {
+   "fieldname": "conference_grading_and_notes_section",
+   "fieldtype": "Section Break",
+   "label": "Conference Grading And Notes"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "grading_sheet",
+   "fieldtype": "Table",
+   "label": "Grading Sheet",
+   "options": "Grading Sheet"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text Editor",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "attendance_tab",
+   "fieldtype": "Tab Break",
+   "label": "Attendance"
+  },
+  {
+   "fieldname": "tab_6_tab",
+   "fieldtype": "Tab Break",
+   "label": "Tab 6"
+  },
+  {
+   "fieldname": "branch_link",
+   "fieldtype": "Link",
+   "label": "branch link",
+   "options": "Branch"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-06 17:28:36.155372",
+ "modified_by": "Administrator",
+ "module": "Mun",
+ "name": "Committee",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
