@@ -1,6 +1,15 @@
 {
- "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"MUN Tools\"}}]",
+ "charts": [
+  {
+   "chart_name": "Committee Capacity Status",
+   "label": "Committee Capacity Status"
+  },
+  {
+   "chart_name": "Delegate Application Status",
+   "label": "Delegate Application Statuses"
+  }
+ ],
+ "content": "[{\"id\":\"0r65CnRCbl\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">MUN Tools</span>\",\"col\":12}},{\"id\":\"tipT22gBA-\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Delegate Application Statuses\",\"col\":6}},{\"id\":\"7zeE0q-uY9\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Committee Capacity Status\",\"col\":6}},{\"id\":\"r2GIBx0aT5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Delegate List\",\"col\":3}},{\"id\":\"1NZAsyqLDh\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Team Member List\",\"col\":3}},{\"id\":\"2f8vz-0Ox6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Designation List\",\"col\":3}},{\"id\":\"ln0zLasX3l\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Delegate Applications\",\"col\":3}},{\"id\":\"BaPrrF9lbV\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Committee List\",\"col\":3}}]",
  "creation": "2024-12-30 13:43:32.565454",
  "custom_blocks": [],
  "docstatus": 0,
@@ -13,7 +22,7 @@
  "is_hidden": 0,
  "label": "MUN Tools",
  "links": [],
- "modified": "2025-01-11 18:02:15.543477",
+ "modified": "2025-01-12 17:54:15.120164",
  "modified_by": "Administrator",
  "module": "Mun",
  "name": "MUN Tools",
@@ -24,6 +33,47 @@
  "quick_lists": [],
  "roles": [],
  "sequence_id": 1.0,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Delegate List",
+   "link_to": "Employee",
+   "stats_filter": "[[\"Employee\",\"naming_series\",\"=\",\"D-\",false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Team Member List",
+   "link_to": "Employee",
+   "stats_filter": "[[\"Employee\",\"naming_series\",\"=\",\"TM-\",false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "label": "Designation List",
+   "link_to": "Designation",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Yellow",
+   "doc_view": "List",
+   "label": "Delegate Applications",
+   "link_to": "Delegate Applications",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "Committee List",
+   "link_to": "Committee",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
  "title": "MUN Tools"
 }

@@ -13,6 +13,7 @@
   {
    "fieldname": "name1",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Name",
    "link_filters": "[[\"Employee\",\"naming_series\",\"=\",\"TM-\"]]",
    "options": "Employee"
@@ -20,6 +21,7 @@
   {
    "fieldname": "designation",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Designation",
    "options": "Designation"
   }
@@ -27,7 +29,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-12-30 13:27:21.265020",
+ "modified": "2025-01-12 16:37:12.569560",
  "modified_by": "Administrator",
  "module": "Mun",
  "name": "Committee Team Member",

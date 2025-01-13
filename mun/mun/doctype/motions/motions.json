@@ -22,27 +22,32 @@
   {
    "fieldname": "motion_type",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Motion Type",
    "options": "Informal Debate\nFormal Debate"
   },
   {
    "fieldname": "topic",
    "fieldtype": "Small Text",
+   "in_list_view": 1,
    "label": "Topic"
   },
   {
    "fieldname": "total_time",
    "fieldtype": "Duration",
+   "in_list_view": 1,
    "label": "Total Time"
   },
   {
    "fieldname": "speakers_time",
    "fieldtype": "Duration",
+   "in_list_view": 1,
    "label": "Speakers Time"
   },
   {
    "fieldname": "proposed_by_delegate",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Proposed By (Delegate)",
    "options": "Delegate"
   }
@@ -50,7 +55,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-12-27 14:52:43.951509",
+ "modified": "2025-01-12 16:38:09.753206",
  "modified_by": "Administrator",
  "module": "Mun",
  "name": "Motions",

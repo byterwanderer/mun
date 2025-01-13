@@ -22,12 +22,15 @@
   {
    "fieldname": "delegate",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Delegate",
-   "options": "Delegate"
+   "options": "Delegate",
+   "reqd": 1
   },
   {
    "fieldname": "opening_speech_out_of_10",
    "fieldtype": "Float",
+   "in_list_view": 1,
    "label": "Opening Speech (Out of 10)",
    "non_negative": 1,
    "precision": "5"
@@ -35,12 +38,14 @@
   {
    "fieldname": "motions_tally_times",
    "fieldtype": "Int",
+   "in_list_view": 1,
    "label": "Motions Count",
    "non_negative": 1
   },
   {
    "fieldname": "opening_speech_out_of_10_copy",
    "fieldtype": "Float",
+   "in_list_view": 1,
    "label": "Opening Speech (Out of 10) Copy",
    "non_negative": 1,
    "precision": "5"
@@ -48,41 +53,48 @@
   {
    "fieldname": "quality_of_speech_out_of_10",
    "fieldtype": "Int",
+   "in_list_view": 1,
    "label": "Quality of Speech (Out of 10)",
    "non_negative": 1
   },
   {
    "fieldname": "point_count",
    "fieldtype": "Int",
+   "in_list_view": 1,
    "label": "Point Count"
   },
   {
    "fieldname": "point_quality",
    "fieldtype": "Float",
+   "in_list_view": 1,
    "label": "Point Quality",
    "non_negative": 1
   },
   {
    "fieldname": "leadership_and_etiquette_out_of_10",
    "fieldtype": "Float",
+   "in_list_view": 1,
    "label": "Leadership And Etiquette (out of 10)",
    "non_negative": 1
   },
   {
    "fieldname": "unmoderated_caucus",
    "fieldtype": "Float",
+   "in_list_view": 1,
    "label": "Unmoderated Caucus",
    "non_negative": 1
   },
   {
    "fieldname": "evaluation",
    "fieldtype": "Float",
+   "in_list_view": 1,
    "label": "Evaluation",
    "non_negative": 1
   },
   {
    "fieldname": "total",
    "fieldtype": "Float",
+   "in_list_view": 1,
    "label": "Total",
    "non_negative": 1
   }
@@ -90,7 +102,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-12-27 15:32:21.834188",
+ "modified": "2025-01-12 15:54:55.302394",
  "modified_by": "Administrator",
  "module": "Mun",
  "name": "Grading Sheet",

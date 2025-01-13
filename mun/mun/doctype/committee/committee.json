@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "prompt",
  "creation": "2024-12-27 15:33:50.933297",
@@ -28,7 +29,6 @@
   "conference_grading_and_notes_section",
   "grading_sheet",
   "notes",
-  "attendance_tab",
   "tab_6_tab",
   "branch_link"
  ],
@@ -53,6 +53,7 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Capacity Status",
+   "options": "Seats Available\nNo Seats Left",
    "reqd": 1
   },
   {
@@ -153,7 +154,8 @@
    "fieldname": "grading_sheet",
    "fieldtype": "Table",
    "label": "Grading Sheet",
-   "options": "Grading Sheet"
+   "options": "Grading Sheet",
+   "width": "1"
   },
   {
    "fieldname": "notes",
@@ -161,14 +163,9 @@
    "label": "Notes"
   },
   {
-   "fieldname": "attendance_tab",
-   "fieldtype": "Tab Break",
-   "label": "Attendance"
-  },
-  {
    "fieldname": "tab_6_tab",
    "fieldtype": "Tab Break",
-   "label": "Tab 6"
+   "label": "Attendance settings"
   },
   {
    "fieldname": "branch_link",
@@ -179,7 +176,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-06 17:28:36.155372",
+ "modified": "2025-01-12 17:52:57.315859",
  "modified_by": "Administrator",
  "module": "Mun",
  "name": "Committee",
