@@ -9,7 +9,7 @@
    "label": "Delegate Application Statuses"
   }
  ],
- "content": "[{\"id\":\"0r65CnRCbl\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">MUN Tools</span>\",\"col\":12}},{\"id\":\"tipT22gBA-\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Delegate Application Statuses\",\"col\":6}},{\"id\":\"7zeE0q-uY9\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Committee Capacity Status\",\"col\":6}},{\"id\":\"r2GIBx0aT5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Delegate List\",\"col\":3}},{\"id\":\"1NZAsyqLDh\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Team Member List\",\"col\":3}},{\"id\":\"2f8vz-0Ox6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Designation List\",\"col\":3}},{\"id\":\"ln0zLasX3l\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Delegate Applications\",\"col\":3}},{\"id\":\"BaPrrF9lbV\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Committee List\",\"col\":3}}]",
+ "content": "[{\"id\":\"0r65CnRCbl\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">MUN Tools</span>\",\"col\":12}},{\"id\":\"tipT22gBA-\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Delegate Application Statuses\",\"col\":6}},{\"id\":\"7zeE0q-uY9\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Committee Capacity Status\",\"col\":6}},{\"id\":\"r2GIBx0aT5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Delegate List\",\"col\":3}},{\"id\":\"1NZAsyqLDh\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Team Member List\",\"col\":3}},{\"id\":\"2f8vz-0Ox6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Designation List\",\"col\":3}},{\"id\":\"ln0zLasX3l\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Delegate Applications\",\"col\":3}},{\"id\":\"BaPrrF9lbV\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Committee List\",\"col\":3}},{\"id\":\"6lT0ihzFdt\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Delegation List\",\"col\":3}},{\"id\":\"FXiwRZQFK9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Certificate List\",\"col\":3}}]",
  "creation": "2024-12-30 13:43:32.565454",
  "custom_blocks": [],
  "docstatus": 0,
@@ -22,7 +22,7 @@
  "is_hidden": 0,
  "label": "MUN Tools",
  "links": [],
- "modified": "2025-01-12 17:54:15.120164",
+ "modified": "2025-01-13 12:34:07.736644",
  "modified_by": "Administrator",
  "module": "Mun",
  "name": "MUN Tools",
@@ -40,6 +40,22 @@
    "label": "Delegate List",
    "link_to": "Employee",
    "stats_filter": "[[\"Employee\",\"naming_series\",\"=\",\"D-\",false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Delegation List",
+   "link_to": "Delegation",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Certificate List",
+   "link_to": "Certificate",
+   "stats_filter": "[]",
    "type": "DocType"
   },
   {

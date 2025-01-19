@@ -9,6 +9,7 @@
  "field_order": [
   "delegation_info_section",
   "delegation_name",
+  "flag_if_country_uploader",
   "flag_if_country"
  ],
  "fields": [
@@ -25,14 +26,19 @@
   },
   {
    "fieldname": "flag_if_country",
-   "fieldtype": "Attach Image",
+   "fieldtype": "Image",
    "label": "Flag (If Country)"
+  },
+  {
+   "fieldname": "flag_if_country_uploader",
+   "fieldtype": "Attach Image",
+   "label": "Flag (If Country) uploader"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
  "make_attachments_public": 1,
- "modified": "2024-12-30 13:31:39.136187",
+ "modified": "2025-01-14 19:38:51.817704",
  "modified_by": "Administrator",
  "module": "Mun",
  "name": "Delegation",

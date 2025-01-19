@@ -1,7 +1,8 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
- "autoname": "format:{awared_to}-{certificate_type}",
+ "autoname": "format:{awarded_to}-{certificate_type}",
  "creation": "2024-12-27 15:46:01.254127",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -22,12 +23,11 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Awarded To",
-   "options": "Employee",
-   "reqd": 1
+   "options": "Employee"
   },
   {
    "fieldname": "written",
-   "fieldtype": "Text Editor",
+   "fieldtype": "Data",
    "label": "Written"
   },
   {
@@ -35,13 +35,13 @@
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Certificate Type",
-   "options": "\nParticipation\nBest Delegate\nDiplomacy\nHonorable Mention\nBest Advocate\nBest Judge\nSecretary General\nDeputy Secretary General\nHead Of Media/Design\nCo-Head Of Press\nCo-head Of Crisis\nCo-head Of Logistics\nMember Of Press\nMember Of Media/Design\nChair",
+   "options": "\nParticipation\nBest Delegate\nDiplomacy\nHonorable Mention\nBest Advocate\nBest Judge\nSecretary General\nDeputy Secretary General\nHead Of Media/Design\nCo-Head Of Press\nCo-Head Of Crisis\nCo-Head Of Logistics\nMember Of Press\nMember Of Media/Design\nChair",
    "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-06 17:22:48.296802",
+ "modified": "2025-01-17 15:33:26.279214",
  "modified_by": "Administrator",
  "module": "Mun",
  "name": "Certificate",

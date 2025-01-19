@@ -2,6 +2,7 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
+ "autoname": "format:{registration_type}-{full_name}",
  "creation": "2024-12-27 14:35:33.357669",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -134,10 +135,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-12 16:06:18.966777",
+ "modified": "2025-01-17 19:30:35.722909",
  "modified_by": "Administrator",
  "module": "Mun",
  "name": "Delegate Applications",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
