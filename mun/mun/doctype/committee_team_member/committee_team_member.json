@@ -19,6 +19,7 @@
    "options": "Employee"
   },
   {
+   "fetch_from": "name1.designation",
    "fieldname": "designation",
    "fieldtype": "Link",
    "in_list_view": 1,
@@ -29,7 +30,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-01-12 16:37:12.569560",
+ "modified": "2025-01-23 14:49:42.455876",
  "modified_by": "Administrator",
  "module": "Mun",
  "name": "Committee Team Member",

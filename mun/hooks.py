@@ -244,4 +244,4 @@ required_apps = ["frappe/erpnext", "frappe/hrms"]
 # }
 
 
-website_route_rules = [{'from_route': '/mun-conf-details/<path:app_path>', 'to_route': 'mun-conf-details'},]
+website_route_rules = [{'from_route': '/mun-details-screen/<path:app_path>', 'to_route': 'mun-details-screen'}, {'from_route': '/mun-conf-details/<path:app_path>', 'to_route': 'mun-conf-details'}, {'from_route': '/mun-conf-details/<path:app_path>', 'to_route': 'mun-conf-details'},]

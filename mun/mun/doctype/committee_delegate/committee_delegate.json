@@ -20,6 +20,7 @@
    "options": "Employee"
   },
   {
+   "fetch_from": "delegate.designation",
    "fieldname": "delegation",
    "fieldtype": "Link",
    "in_list_view": 1,
@@ -37,7 +38,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-01-12 16:37:40.145905",
+ "modified": "2025-01-23 14:50:19.949385",
  "modified_by": "Administrator",
  "module": "Mun",
  "name": "Committee Delegate",
